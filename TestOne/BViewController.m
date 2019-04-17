@@ -20,7 +20,10 @@
     NSMutableArray *arr = [[NSMutableArray alloc]init];
     
     NSDictionary *d = @{@"key":@"2"};
+    NSDictionary *B = @{@"key":@"3"};
+    
     [arr addObject:d];
+    [arr addObject:B];
     
     // Do any additional setup after loading the view.
 }
